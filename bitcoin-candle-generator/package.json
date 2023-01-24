@@ -6,7 +6,8 @@
   "author": "Guilherme Ramos <guilherme.silvano@hotmail.com>",
   "license": "MIT",
   "scripts": {
-    "start": "ts-node src/index.ts"
+    "start": "ts-node src/index.ts",
+    "build": "tsc"
   },
   "devDependencies": {
     "@types/amqplib": "^0.10.0",
